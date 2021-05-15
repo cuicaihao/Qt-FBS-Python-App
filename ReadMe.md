@@ -42,11 +42,11 @@ fbs run
 ```
 This shows a (admittedly not very exciting) window. 
 
-![app_GUI](.\images\app_gui.png)
+![app_GUI](./images/app_gui.png)
 
-![app_GUI_click](.\images\app_gui_clickbutton.png)
+![app_GUI_click](./images/app_gui_clickbutton.png)
 
-![app_GUI_click_again](.\images\app_gui_clickbutton_ii.png)
+![app_GUI_click_again](./images/app_gui_clickbutton_ii.png)
 
 ## Freezing the app
 We want to turn the source code of our app into a standalone executable that can be run on your users' computers. In the context of Python applications, this process is called "freezing".
@@ -74,13 +74,13 @@ Before you can use the installer command on Windows, please install [NSIS](http:
 The installer is created at `target/HelloSetup.exe`. It lets your users pick the installation directory and adds your app to the Start Menu. It also creates an entry in Windows' list of installed programs. Your users can use this to uninstall your app. The following screenshots show these steps in action:
 
 
-![app_install_1](.\images\Installer_A.png)
+![app_install_1](./images/Installer_A.png)
 
-![app_install_2](.\images\Installer_B.png)
+![app_install_2](./images/Installer_B.png)
 
-![app_install_2](.\images\Installer_C.png)
+![app_install_2](./images/Installer_C.png)
 
-![app_install_2](.\images\Installer_D.png)
+![app_install_2](./images/Installer_D.png)
 
 ## Summary
 fbs lets you use Python and Qt to create desktop applications for Windows, Mac and Linux. It can create installers for your app, and automatically handles the packaging of third-party libraries and data files. These things normally take weeks to figure out. fbs gives them to you in minutes instead.
